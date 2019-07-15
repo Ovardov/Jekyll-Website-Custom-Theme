@@ -24,3 +24,12 @@
     background: var(--color-link-default);
     color: var(--color-body-background);
 }
+
+.site-nav a i.fas {
+    color: #000000;
+    margin-right: 0.5em;
+}
+
+.site-nav ul li a:hover > i.fas {
+    color: var(--color-body-background);
+}
