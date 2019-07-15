@@ -31,6 +31,8 @@ html {
 
 body, input, textarea, option, select, table, form {
     font: inherit;
+    background: var(--color-body-background, #FFFFFF);
+    color: var(--color-body-text, #000000);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -62,6 +64,11 @@ h5 {
 
 h6 {
     font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-link-default, #000000);
 }
 
 p, blockquote, ul, ol {
