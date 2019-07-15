@@ -17,7 +17,7 @@ title: Mycroft's musings
 email: ovardov@example.com
 description: I am Web Developer!
 destination: docs
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Jekyll-Website-Custom-Theme" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  Ovardov
