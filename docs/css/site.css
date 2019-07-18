@@ -4,4 +4,9 @@
 @import "layout.css";
 @import "header.css";
 @import "navigation.css";
+@import "gallery.css";
 @import "footer.css";
+
+@import "transitions.css";
+@import "animation.css";
+
