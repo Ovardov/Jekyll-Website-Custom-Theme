@@ -4,7 +4,8 @@
 @import "layout.css";
 @import "header.css";
 @import "navigation.css";
-@import "gallery.css";
+/*@import "gallery.css";*/
+@import "gallery-grid.css";
 @import "footer.css";
 
 @import "transitions.css";

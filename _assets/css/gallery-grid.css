@@ -1,0 +1,103 @@
+.gallery {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1em;
+    grid-auto-flow: dense;
+}
+
+.gallery a,
+.gallery span,
+.gallery img {
+    display: block;
+}
+
+.gallery li {
+    display: block;
+    list-style: none outside;
+    position: relative;
+    overflow: hidden;
+    grid-column: span 2;
+    animation: slideIn 0.3s ease-in;
+    animation-fill-mode: both;
+}
+
+.gallery li:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.gallery li:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.gallery li:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.gallery li:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.gallery li:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+.gallery li:nth-child(7) {
+    animation-delay: 0.7s;
+}
+
+.gallery li:nth-child(8) {
+    animation-delay: 0.8s;
+}
+
+.gallery li:before {
+    display: block;
+    content: '';
+    padding-top: 50%;
+}
+
+.gallery li.portrait {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.gallery li.portrait a {
+    display: flex;
+}
+
+.gallery li.small img,
+.gallery li.portrait img {
+    width: auto;
+    height: 100%;
+}
+
+.gallery li.portrait:before {
+    padding-top: 200%;
+}
+
+.gallery li.small {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.gallery li.small:before {
+    padding-top: 100%;
+}
+
+.gallery > li > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

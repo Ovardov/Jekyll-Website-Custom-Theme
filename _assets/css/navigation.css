@@ -20,6 +20,7 @@
     background: #EEEEEE;
 }
 
+.site-nav ul li.selected > a,
 .site-nav ul li a:hover {
     background: var(--color-link-default);
     color: var(--color-body-background);
@@ -30,6 +31,7 @@
     margin-right: 0.5em;
 }
 
+.site-nav ul li.selected > a i.fas,
 .site-nav ul li a:hover > i.fas {
     color: var(--color-body-background);
 }
