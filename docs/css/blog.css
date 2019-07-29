@@ -1,0 +1,45 @@
+.magazine {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2em;
+}
+
+.magazine article {
+    grid-column: span 2;
+    padding-bottom: 2em;
+}
+
+.magazine article.featured {
+    grid-column: span 4;
+}
+
+.magazine article.huge {
+    grid-column: span 6;
+}
+
+.magazine .content {
+    display: contents;
+}
+
+.magazine article .media {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.3em;
+    box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.5);
+    margin-bottom: 1em;
+}
+
+.magazine article .media:before {
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+}
+
+.magazine article .media img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+}
