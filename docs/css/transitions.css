@@ -1,7 +1,0 @@
-.site-nav ul li a {
-    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-
-.site-nav a i.fas {
-    transition: color 0.3s ease-in-out;
-}
