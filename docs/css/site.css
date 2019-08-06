@@ -93,38 +93,31 @@ blockquote p:last-child {
   color: var(--color-body-background);
   border-radius: 0.3em;
   border: 1px solid transparent; }
-
-.button:hover {
-  background-color: var(--color-body-background);
-  color: var(--color-link-default);
-  border-color: var(--color-link-default); }
-
-.button-secondary {
-  background-color: var(--color-body-background);
-  color: var(--color-link-default);
-  border-color: var(--color-link-default); }
-
-.button-secondary:hover {
-  text-decoration: underline; }
-
-.button-wrapper {
-  display: flex; }
-
-.button-wrapper .button {
-  display: block; }
-
-.button-wrapper .button + .button {
-  margin-left: 1em; }
+  .button:hover {
+    background-color: var(--color-body-background);
+    color: var(--color-link-default);
+    border-color: var(--color-link-default); }
+  .button-secondary {
+    background-color: var(--color-body-background);
+    color: var(--color-link-default);
+    border-color: var(--color-link-default); }
+    .button-secondary:hover {
+      text-decoration: underline; }
+  .button-wrapper {
+    display: flex; }
+    .button-wrapper .button {
+      display: block; }
+      .button-wrapper .button + .button {
+        margin-left: 1em; }
 
 .site {
   max-width: var(--layout-main-width);
   margin: 0 auto; }
-
-@media (min-width: 1024px) {
-  .site-header {
-    display: flex; }
-  .site-nav {
-    margin-left: auto; } }
+  @media (min-width: 1024px) {
+    .site-header {
+      display: flex; }
+    .site-nav {
+      margin-left: auto; } }
 
 .site-header {
   align-items: center;
@@ -171,7 +164,6 @@ blockquote p:last-child {
 .site-nav ul li a:hover > i.fas {
   color: var(--color-body-background); }
 
-/*@import "_gallery.scss";*/
 .gallery {
   margin: 0;
   padding: 0;

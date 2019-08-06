@@ -1,16 +1,14 @@
 .site {
     max-width: var(--layout-main-width);
     margin: 0 auto;
-}
 
-@media (min-width: 1024px) {
+    @include  bp(laptop) {
+        &-header {
+            display: flex;
+        }
 
-    .site-header {
-        display: flex;
+        &-nav {
+            margin-left: auto;
+        }
     }
-
-    .site-nav {
-        margin-left: auto;
-    }
-
 }

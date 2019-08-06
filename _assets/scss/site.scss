@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixins";
 @import "typography";
 
 @import "buttons";
@@ -6,7 +7,7 @@
 @import "layout";
 @import "header";
 @import "navigation";
-/*@import "_gallery.scss";*/
+//@import "gallery";
 @import "gallery-grid";
 @import "blog";
 @import "footer";
